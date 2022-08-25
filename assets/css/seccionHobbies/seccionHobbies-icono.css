@@ -1,0 +1,26 @@
+/*Container con ancho y alto de 30px*/
+.seccion-hobbies__icono {
+    width: 2.3125rem;
+    height: 2.3125rem;
+}
+
+/*Selectores flag para iconos*/
+.seccion-hobbies__icono--musica {
+    background: url("../../img/iconos/hobbies/musica.jpg") center / 200% 200% no-repeat;
+
+}
+.seccion-hobbies__icono--danza {
+    background: url("../../img/iconos/hobbies/danza.png") center / 100% 100% no-repeat;
+}
+
+.seccion-hobbies__icono--libro {
+    background: url("../../img/iconos/hobbies/libro.jpg") center / 300% 300% no-repeat;
+}
+
+.seccion-hobbies__icono--cine {
+    background: url("../../img/iconos/hobbies/rollo-de-pelicula.png") center / 100% 100% no-repeat;
+}
+
+.seccion-hobbies__icono--futbol {
+    background: url("../../img/iconos/hobbies/futbol.jpg") center / 150% 150% no-repeat;
+}

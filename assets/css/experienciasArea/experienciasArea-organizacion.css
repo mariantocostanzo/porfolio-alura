@@ -1,0 +1,20 @@
+/*Configurando tamaños de fuente y margenes superior*/
+.experiencias-area__organizacion {
+    font-size: var(--tamañoLetraEscritorio-parrafosYLinks-dscImagen-botones);
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .experiencias-area__organizacion {
+        font-size: var(--tamañoLetraTablet-parrafoSobreMi-dscImagenes-botones);
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .experiencias-area__organizacion {
+        font-size: var(--tamañoLetraCelular-parrafosYLinks-descripcionImagen);
+    }
+}
