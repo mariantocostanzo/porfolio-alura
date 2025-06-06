@@ -1,0 +1,26 @@
+/*Container con ancho y alto de 30px*/
+.seccion-servicios__icono{
+    width: 2.3125rem;
+    height: 2.3125rem;
+}
+
+/*Selectores flag para iconos*/
+.seccion-servicios__icono--asistente_virtual {
+    background: url("../../img/iconos/servicios/asistente virtual.png") center / 100% 100% no-repeat;
+
+}
+.seccion-servicios__icono--digitalizacion {
+    background: url("../../img/iconos/servicios/digitalizacion y edicion.png") center / 100% 100% no-repeat;
+}
+
+.seccion-servicios__icono--datos {
+    background: url("../../img/iconos/servicios/analisis.png") center / 100% 100% no-repeat;
+}
+
+.seccion-servicios__icono--web {
+    background: url("../../img/iconos/servicios/desarrollo web.png") center / 100% 100% no-repeat;
+}
+
+.seccion-servicios__icono--diseño {
+    background: url("../../img/iconos/servicios/diseno grafico.png") center / 150% 150% no-repeat;
+}
